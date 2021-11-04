@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "productName": "Llanero 1/2",
+    "price": 35000
+  },
+  {
+    "id": 2,
+    "productName": "Llanero Botella",
+    "price": 60000
+  },
+  {
+    "id": 3,
+    "productName": "Antioqueño 1/2",
+    "price": 40000
+  },
+  {
+    "id": 4,
+    "productName": "Antioqueño Botella",
+    "price": 70000
+  },
+  {
+    "id": 5,
+    "productName": "Ron 1/2",
+    "price": 40000
+  },
+  {
+    "id": 6,
+    "productName": "Ron Botella",
+    "price": 70000
+  },
+  {
+    "id": 7,
+    "productName": "Buchanas 1/2",
+    "price": 100000
+  },
+  {
+    "id": 8,
+    "productName": "Buchanas Botella",
+    "price": 150000
+  },
+  {
+    "id": 9,
+    "productName": "Old Parr 1/2",
+    "price": 120000
+  },
+  {
+    "id": 10,
+    "productName": "Old Parr Botella",
+    "price": 150000
+  },
+  {
+    "id": 11,
+    "productName": "Tequila Jose Cuervo",
+    "price": 100000
+  },
+  {
+    "id": 12,
+    "productName": "Black & White 1/2",
+    "price": 50000
+  },
+  {
+    "id": 13,
+    "productName": "Black & White Botella",
+    "price": 80000
+  },
+  {
+    "id": 14,
+    "productName": "Bailey's 1/2",
+    "price": 60000
+  },
+  {
+    "id": 15,
+    "productName": "Bailey's Botella",
+    "price": 85000
+  }
+]

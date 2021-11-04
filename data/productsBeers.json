@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "productName": "Aguila",
+    "price": 3000
+  },
+  {
+    "id": 2,
+    "productName": "Poker",
+    "price": 3000
+  },
+  {
+    "id": 3,
+    "productName": "Costeña",
+    "price": 3000
+  },
+  {
+    "id": 4,
+    "productName": "Aguila Light",
+    "price": 3500
+  },
+  {
+    "id": 5,
+    "productName": "Redd's",
+    "price": 3500
+  },
+  {
+    "id": 6,
+    "productName": "Club Colombia Roja",
+    "price": 3500
+  },
+  {
+    "id": 7,
+    "productName": "Club Colombia Dorada",
+    "price": 3500
+  },
+  {
+    "id": 8,
+    "productName": "Coronita",
+    "price": 3500
+  },
+  {
+    "id": 9,
+    "productName": "Corona",
+    "price": 6000
+  },
+  {
+    "id": 10,
+    "productName": "Smirnoff",
+    "price": 8000
+  }
+]

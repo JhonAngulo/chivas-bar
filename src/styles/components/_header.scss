@@ -1,5 +1,5 @@
 .header {
-  background-color: blue;
+  // background-color: $white_color;
   display: flex;
   justify-content: space-between;
   height: 100px;
@@ -7,9 +7,20 @@
   padding-left: 10px;
   padding-right: 10px;
   
+  &_img {
+    background-color: aqua;
+    border: 20 px solid red;
+  }
+
   &_nav--list {
     display: flex;
     list-style:none;
     gap: 10px;
+  }
+
+  &_nav--item {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: $primary_text;
   }
 }

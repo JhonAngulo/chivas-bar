@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "productName": "Bolleta de Agua",
+    "price": 2000
+  },
+  {
+    "id": 2,
+    "productName": "Bolleta de Agua con gas",
+    "price": 3000
+  },
+  {
+    "id": 3,
+    "productName": "Gatorade",
+    "price": 4000
+  },
+  {
+    "id": 4,
+    "productName": "Vive 100",
+    "price": 3000
+  },
+  {
+    "id": 5,
+    "productName": "Monster",
+    "price": 8000
+  },
+  {
+    "id": 6,
+    "productName": "Coca Cola",
+    "price": 3000
+  },
+  {
+    "id": 7,
+    "productName": "Soda",
+    "price": 3000
+  }
+]

@@ -10,7 +10,14 @@ export default function Home() {
       </Head>
 
       <main>
-        Horarios
+        <div>
+          <h2>dia</h2>
+          <p>Lunes</p>
+        </div>
+        <div>
+          <h2>Horario</h2>
+          <p>05:00 pm a 11:00 pm</p>
+        </div>
       </main>      
 
     </>

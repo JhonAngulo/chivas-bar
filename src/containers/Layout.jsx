@@ -1,42 +1,51 @@
 import Link from 'next/link'
+import Image from 'next/image'
+import logo_bar from '../assets/images/logo_bar.png'
 
 const Layout = ({ children }) => {
+
+  let year = new Date()
+  year = year.getFullYear()
   return (
     <>
       <header className='header'>
-        <div>
-          logo
-        </div>
+        
+        <Image src={logo_bar} height='80' width='100' alt='Logo Chivas Bar' className='header_img'/>
+        
 
         <nav className='header_nav'>
         <ul className='header_nav--list'>
-          <li className='header_nav--item'>
+          <li>
             <Link href="/">
-              <a>Inicio</a>
+              <a className='header_nav--item'>Inicio</a>
             </Link>
           </li>
-          <li className='header_nav--item'>
+          <li>
             <Link href="/conocenos">
-              <a>Conocenos</a>
+              <a className='header_nav--item'>Conocenos</a>
             </Link>
           </li>
-          <li className='header_nav--item'>
+          <li>
             <Link href="/horarios">
-              <a>Horarios</a>
+              <a className='header_nav--item'>Horarios</a>
             </Link>
           </li>
-          <li className='header_nav--item'>
+          <li>
             <Link href="/productos">
-              <a>Productos</a>
+              <a className='header_nav--item'>Productos</a>
             </Link>
           </li>
         </ul>
         </nav>
 
       </header>
-      {children}
-      <footer >
-        Chiva's Bar todos los derechos reservados
+        
+      <main className='container'>
+        {children}
+      </main>
+      
+      <footer className='footer'>
+        <p>{`Chiva's Bar - Copyright © ${year}.`}</p>
       </footer>
     </>
   )
