@@ -8,8 +8,7 @@
   padding-right: 10px;
   
   &_img {
-    background-color: aqua;
-    border: 20 px solid red;
+
   }
 
   &_nav--list {
@@ -21,6 +20,7 @@
   &_nav--item {
     text-decoration: none;
     font-size: 1.4rem;
+    font-weight: 500;
     color: $primary_text;
   }
 }

@@ -1,0 +1,16 @@
+.page_under{
+  text-align: center;
+
+  &--img {
+    margin: 0 auto;
+    width: 90%;
+    height: 30%;
+    max-width: 600px;
+  }
+
+  &--text {
+    font-size: 2.8rem;
+  }
+
+
+}

@@ -6,6 +6,20 @@
   justify-content: space-between;
   gap: 50px;
 
+  @include sm {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-between;
+    gap: 50px;
+  }
+
+  @include md {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-between;
+    gap: 50px;
+  }
+
   &--header {
     margin: 0 auto;
     width: 100px;
@@ -31,6 +45,7 @@
 
   &-name {
     text-align: left;
+    font-weight: 500;
   }
 
   &-price {
