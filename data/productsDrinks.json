@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "productName": "Bolleta de Agua",
+    "productName": "Botella de Agua",
     "price": 2000
   },
   {
     "id": 2,
-    "productName": "Bolleta de Agua con gas",
+    "productName": "Botella de Agua con gas",
     "price": 3000
   },
   {
