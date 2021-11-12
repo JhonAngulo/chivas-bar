@@ -2,36 +2,85 @@
   {
     "id": 1,
     "productName": "Botella de Agua",
-    "price": 2000
+    "price": 2000,
+    "hide": false,
+    "order": 1
   },
   {
     "id": 2,
     "productName": "Botella de Agua con gas",
-    "price": 3000
+    "price": 3000,
+    "hide": false,
+    "order": 2
   },
   {
     "id": 3,
     "productName": "Gatorade",
-    "price": 4000
+    "price": 4000,
+    "hide": false,
+    "order": 7
   },
   {
     "id": 4,
     "productName": "Vive 100",
-    "price": 3000
+    "price": 3000,
+    "hide": false,
+    "order": 8
   },
   {
     "id": 5,
     "productName": "Monster",
-    "price": 8000
+    "price": 8000,
+    "hide": true,
+    "order": 9
   },
   {
     "id": 6,
-    "productName": "Coca Cola",
-    "price": 3000
+    "productName": "Coca Cola*400",
+    "price": 3000,
+    "hide": false,
+    "order": 3
   },
   {
     "id": 7,
+    "productName": "Postobon*400",
+    "price": 3000,
+    "hide": false,
+    "order": 4
+  },
+  {
+    "id": 8,
+    "productName": "Jugo Hit",
+    "price": 3000,
+    "hide": false,
+    "order": 5
+  },
+  {
+    "id": 9,
     "productName": "Soda",
-    "price": 3000
+    "price": 3000,
+    "hide": true,
+    "order": 6
+  },
+  {
+    "id":10,
+    "productName": "J.P Lata",
+    "price": 12000,
+    "hide": false,
+    "order": 10
+  },
+  {
+    "id": 11,
+    "productName": "J.P Botella*250",
+    "price": 25000,
+    "hide": false,
+    "order": 11
+  },
+  {
+    "id": 12,
+    "productName": "Four Loko",
+    "price": 15000,
+    "hide": false,
+    "order": 12
   }
 ]

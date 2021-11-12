@@ -2,8 +2,35 @@ import Head from 'next/head'
 import productsBeers from "../data/productsBeers.json"
 import productsLiqueurs from "../data/productsLiqueurs.json"
 import productsDrinks from "../data/productsDrinks.json"
+import { useEffect, useState } from 'react'
 
 export default function Home() {
+
+  const [products, setProducts] = useState({
+    Beers: [],
+    Liqueurs: [],
+    Drinks: []
+  })
+
+  const handleSort = (list) => {
+
+    list.sort(function(a, b) {
+        return (a.order - b.order);
+    }).sort(function(a, b) {
+        return (a.name - b.name);
+    });
+
+    return list
+  }
+
+  useEffect(() => {
+    setProducts({
+      Beers: handleSort(productsBeers.filter((item) => !item.hide )),
+      Liqueurs: handleSort(productsLiqueurs.filter((item) => !item.hide )),
+      Drinks: handleSort(productsDrinks.filter((item) => !item.hide ))
+    })
+  }, [])
+
   return (
     <>
       <Head>
@@ -16,7 +43,7 @@ export default function Home() {
         <div>
           <h2 className='products_container--header'>Cervezas</h2>
           {
-            productsBeers.map( product => (
+            products.Beers.map( product => (
               <div key={product.id}>
                 <div className='products_container--body'>
                   <p className='product--item product--item-name'>{product.productName}</p>
@@ -30,7 +57,7 @@ export default function Home() {
         <div>
           <h2 className='products_container--header'>Licores</h2>
           {
-            productsLiqueurs.map( product => (
+            products.Liqueurs.map( product => (
               <div key={product.id}>
                 <div className='products_container--body'>
                   <p className='product--item product--item-name'>{product.productName}</p>
@@ -44,7 +71,7 @@ export default function Home() {
         <div>
           <h2 className='products_container--header'>Bebidas</h2>
           {
-            productsDrinks.map( product => (
+            products.Drinks.map( product => (
               <div key={product.id}>
                 <div className='products_container--body'>
                   <p className='product--item product--item-name'>{product.productName}</p>
