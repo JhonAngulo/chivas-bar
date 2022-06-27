@@ -45,7 +45,7 @@
     "id": 7,
     "productName": "Postobon*400",
     "price": 3000,
-    "hide": false,
+    "hide": true,
     "order": 4
   },
   {
@@ -59,13 +59,13 @@
     "id": 9,
     "productName": "Soda",
     "price": 3000,
-    "hide": true,
+    "hide": false,
     "order": 6
   },
   {
     "id":10,
     "productName": "J.P Lata",
-    "price": 12000,
+    "price": 15000,
     "hide": false,
     "order": 10
   },
@@ -79,8 +79,15 @@
   {
     "id": 12,
     "productName": "Four Loko",
-    "price": 15000,
+    "price": 16000,
     "hide": false,
     "order": 12
+  },
+  {
+    "id": 13,
+    "productName": "Speed Max",
+    "price": 3000,
+    "hide": false,
+    "order": 8
   }
 ]
