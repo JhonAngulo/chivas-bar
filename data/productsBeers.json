@@ -18,55 +18,111 @@
     "productName": "Costeña",
     "price": 3000,
     "hide": false,
-    "order": 3
+    "order": 4
   },
   {
     "id": 4,
     "productName": "Aguila Light",
     "price": 3500,
     "hide": false,
-    "order": 4
+    "order": 5
   },
   {
     "id": 5,
     "productName": "Redd's",
     "price": 3500,
     "hide": false,
-    "order": 5
+    "order": 6
   },
   {
     "id": 6,
     "productName": "Club Colombia Roja",
     "price": 3500,
     "hide": false,
-    "order": 6
+    "order": 7
   },
   {
     "id": 7,
     "productName": "Club Colombia Dorada",
     "price": 3500,
     "hide": false,
-    "order": 7
+    "order": 8
   },
   {
     "id": 8,
     "productName": "Coronita",
-    "price": 3500,
+    "price": 4000,
     "hide": false,
-    "order": 8
+    "order": 9
   },
   {
     "id": 9,
     "productName": "Corona",
     "price": 6000,
     "hide": false,
-    "order": 9
+    "order": 14
   },
   {
     "id": 10,
     "productName": "Smirnoff",
-    "price": 8000,
-    "hide": true,
+    "price": 10000,
+    "hide": false,
+    "order": 17
+  },  
+  {
+    "id": 11,
+    "productName": "Budweiser Lata",
+    "price": 3000,
+    "hide": false,
+    "order": 3
+  },
+  {
+    "id": 12,
+    "productName": "Heineken",
+    "price": 4000,
+    "hide": false,
     "order": 10
+  },
+  {
+    "id": 13,
+    "productName": "BBC Lata",
+    "price": 5000,
+    "hide": false,
+    "order": 11
+  },
+  {
+    "id": 14,
+    "productName": "Poker Premiun Lata",
+    "price": 5000,
+    "hide": false,
+    "order": 12
+  },
+  {
+    "id": 15,
+    "productName": "Club Doble Malta Lata",
+    "price": 5000,
+    "hide": false,
+    "order": 13
+  },
+  {
+    "id": 16,
+    "productName": "Stella",
+    "price": 7000,
+    "hide": false,
+    "order": 14
+  },
+  {
+    "id": 17,
+    "productName": "Michelob",
+    "price": 7000,
+    "hide": false,
+    "order": 15
+  },
+  {
+    "id": 18,
+    "productName": "3 Cordilleras Rosada",
+    "price": 8000,
+    "hide": false,
+    "order": 16
   }
 ]

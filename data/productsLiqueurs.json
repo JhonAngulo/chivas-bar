@@ -44,14 +44,14 @@
   {
     "id": 7,
     "productName": "Buchanans Deluxe 1/2",
-    "price": 110000,
+    "price": 120000,
     "hide": false,
     "order": 14
   },
   {
     "id": 8,
     "productName": "Buchanans Deluxe Botella",
-    "price": 160000,
+    "price": 180000,
     "hide": false,
     "order": 15
   },
@@ -65,7 +65,7 @@
   {
     "id": 10,
     "productName": "Old Parr Botella",
-    "price": 160000,
+    "price": 180000,
     "hide": false,
     "order": 18
   },
@@ -95,14 +95,14 @@
     "productName": "Bailey's 1/2",
     "price": 70000,
     "hide": false,
-    "order": 23
+    "order": 24
   },
   {
     "id": 15,
     "productName": "Bailey's Botella",
     "price": 100000,
     "hide": false,
-    "order": 24
+    "order": 25
   },
   {
     "id": 16,
@@ -151,7 +151,7 @@
     "productName": "Tequila El Jimador",
     "price": 130000,
     "hide": false,
-    "order": 22
+    "order": 23
   },
   {
     "id": 23,
@@ -169,9 +169,30 @@
   },
   {
     "id": 25,
-    "productName": "Bailey's Botella",
-    "price": 85000,
-    "hide": true,
-    "order": 25
+    "productName": "Vodka Smirnoff Lulo",
+    "price": 70000,
+    "hide": false,
+    "order": 26
+  },
+  {
+    "id": 26,
+    "productName": "Tequila La Misión",
+    "price": 120000,
+    "hide": false,
+    "order": 22
+  },
+  {
+    "id": 27,
+    "productName": "Tequila Milagro Reposado",
+    "price": 220000,
+    "hide": false,
+    "order": 22
+  },
+  {
+    "id": 28,
+    "productName": "Tequila Milagro Añejo",
+    "price": 260000,
+    "hide": false,
+    "order": 22
   }
 ]
