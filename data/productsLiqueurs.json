@@ -72,7 +72,7 @@
   {
     "id": 11,
     "productName": "Tequila Jose Cuervo",
-    "price": 120000,
+    "price": 130000,
     "hide": false,
     "order": 21
   },
@@ -135,14 +135,14 @@
   {
     "id": 20,
     "productName": "Chivas Regal",
-    "price": 160000,
+    "price": 180000,
     "hide": false,
     "order": 19
   },
   {
     "id": 21,
     "productName": "Jack Daniels",
-    "price": 160000,
+    "price": 180000,
     "hide": false,
     "order": 20
   },
@@ -170,14 +170,14 @@
   {
     "id": 25,
     "productName": "Vodka Smirnoff Lulo",
-    "price": 70000,
+    "price": 80000,
     "hide": false,
     "order": 26
   },
   {
     "id": 26,
     "productName": "Tequila La Misión",
-    "price": 120000,
+    "price": 130000,
     "hide": false,
     "order": 22
   },
